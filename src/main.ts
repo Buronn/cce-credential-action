@@ -6,7 +6,6 @@ import * as cce from './cceCredential'
 
 export async function run() {
     const inputs: context.Inputs = context.getInputs()
-    //如果参数输入有问题，终止操作
     if (!utils.checkInputs(inputs)) {
         core.setFailed('check input parameters failed')
         return
