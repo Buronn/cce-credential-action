@@ -1,4 +1,4 @@
-name: 'Kube config for Huawei Cloud CCE cluster'
+name: 'Kube config for Huawei Cloud CCE cluster fix'
 description: 'Install kubectl and Set Kube config for Huawei Cloud CCE cluster'
 branding:
   color: 'red'
