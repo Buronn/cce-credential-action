@@ -20,11 +20,6 @@ export function checkInputs(inputs: context.Inputs): boolean {
         return false
     }
 
-    if (!context.cceSupportRegions.includes(inputs.region)) {
-        core.info('CCE not support in this region: ' + inputs.region)
-        return false
-    }
-
     return true
 }
 
